@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#myNavbar{
+	background: white;
+}
+
+.navbar-default .navbar-brand{
+	margin-left: 0 !important;
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand .tweak{
+	color: #ff5252;
+}
+
+
+#links-right > li:LAST-CHILD{
+	margin-right: 25px;
+}
+
+#links-right > li a{
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+}
+ 
+#links-right > li >a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+#links-right >.active>a, 
+#links-right >.active>a:focus, 
+#links-right >.active>a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+
+#player > .wc-msg {
+	padding: 50px 0px 10px 0px;
+	margin: 10px 0 10px 0px;
+}
+
+
+.wc-msg{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold; 
+}
+
+.wc-msg-black{
+	color: black;
+}
+
+.player-box {
+	text-align: center;
+	margin: 5px;
+	border: 1px solid #e6e6e6;
+	min-height: 250px;
+}
+
+.controls {
+	padding: 20px;
+}
+.controls input {
+	border-radius: 0px;
+	background: rgb(98, 96, 96);
+	border: 0px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+}
+.controls input:focus {
+	box-shadow: none;
+}
+.controls input:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.controls input:last-child {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.controls button.btn-custom {
+	border-radius: 2px;
+	margin: 8px auto;
+	background:#ff5252;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 50%
+}
+.controls button.btn-custom:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	width: 50%;
+}
+
+.create-box{
+	margin: 5px;
+	border: 1px solid #e6e6e6;
+}
+
+.create-box-head{
+	color: #009933;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold; 
+	border-bottom: 1px solid #e6e6e6;
+	padding: 5px;
+}
+
+
+.error > p {
+	font-family:'Poiret One', cursive; 
+	color: #ff5252;
+	font-size: medium;
+	height: 25px;
+	font-weight: bold;
+}
+
+.error > p > .msg{
+	font-family:'Poiret One', cursive; 
+	color: #00cc66;
+	font-size: medium;
+}
+
+#teams{
+	min-height: 600px;
+	text-align: center;
+}
+
+#teams > .row > .mng-grd > p{
+	padding-top: 75px;
+	color: #ff5252;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.divide-line{
+	border-bottom: 1px solid #ff5252;
+	margin: 50px;
+}
+
+.req-panel {
+	margin: 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 0;
+}
+
+.req-panel > .panel-heading {
+	text-align: left;
+	background: rgb(98, 96, 96);
+	border-radius: 0;
+} 
+
+.req-panel > .panel-heading > .panel-title{
+	color: white;
+	padding: 0 0 0 20px;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.req-box{
+	padding: 5px;
+}
+
+.req-details{
+	padding: 5px;
+	border: 1px solid #e7e7e7;
+	text-align: left;
+	font-family:'Poiret One', cursive; 
+	font-size: small;
+	font-weight: bold;
+	color: black;
+}
+
+.req-details:HOVER{
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	background-color: #00cc99;
+	border: 1px solid #cc0066; 
+}
+
+.jtr-msg p {
+	
+	font-family:'Poiret One', cursive; 
+	font-size: medium;
+	font-weight: bold;
+	color: green;
+}
+
+.req-details p > .tweak{
+	font-size: medium;
+	color: #cc0066;
+}
+
+
+.form-control-two {
+	margin: 5px;
+	border: 1px solid #e6e6e6;
+	text-align: left;
+	font-family:'Poiret One', cursive; 
+	font-size: medium;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+}
+
+.form-control-two > span input{
+	padding: 5px;
+} 
+
+
+.map-box{
+	margin: 5px;
+	padding: 5px;
+	font-family:'Poiret One', cursive; 
+	color: black;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+}
+
+.map-box:HOVER{
+	background-color: #bfbfbf;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.ts-slot{
+	text-align: left;
+}
+
+.ts-decide{
+	text-align: center;
+	cursor: pointer;
+	background-color: #0099ff;
+	padding: 5px;
+}
+
+.ts-decide:HOVER{
+	background-color: #00cc66;
+}
+
+.pro-pic{
+	margin: 20px;
+}
+
+/* scroll bar css*/
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: inherit;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cc0066; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background-color: #cc0066; 
+}

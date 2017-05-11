@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#myNavbar{
+	background: white;
+}
+
+.navbar-default .navbar-brand{
+	margin-left: 0 !important;
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand .tweak{
+	color: #ff5252;
+}
+
+
+#links-right > li:LAST-CHILD{
+	margin-right: 25px;
+}
+
+#links-right > li a{
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+}
+ 
+#links-right > li >a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+#links-right >.active>a, 
+#links-right >.active>a:focus, 
+#links-right >.active>a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+
+#myground .row {
+	padding: 50px 0px 50px 0px;
+	margin: 10px 0 10px 0px;
+}
+
+
+#availability > .row{
+	padding: 50px 0px 50px 0px;
+	margin: 10px 0 10px 0px;
+	min-height: 600px;
+}
+
+.wc-msg{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+	padding-bottom: 25px; 
+}
+
+.wc-msg-black{
+	color: black;
+}
+
+.ground-box {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	min-height: 250px;
+	overflow-y:auto;  
+}
+
+.ground-box > .gbox-head{
+	color: #ff0066;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.add-ground{
+	padding: 10px;
+}
+
+
+.add-ground > p span{ 
+	padding: 5px;
+	border-bottom: 1px solid #ff0066;
+}
+
+.add-ground > p {
+	font-family:'Poiret One', cursive; 
+	font-size: medium;
+	font-weight: bold;
+	width: 50%;
+	margin: auto;
+}
+
+.controls {
+	min-height: 250px;
+	padding: 20px;
+}
+.controls input {
+	border-radius: 0px;
+	background: rgb(98, 96, 96);
+	border: 0px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+}
+.controls input:focus {
+	box-shadow: none;
+}
+.controls input:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.controls input:last-child {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.controls button.btn-custom {
+	border-radius: 2px;
+	margin: 8px auto;
+	background:#ff5252;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 50%
+}
+.controls button.btn-custom:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	width: 50%;
+}
+
+.ground-details{
+	padding: 5px;
+	border: 1px solid #e7e7e7;
+	font-family:'Poiret One', cursive; 
+	font-size: small;
+	font-weight: bold;
+	color: black;
+	margin: 20px auto;
+}
+
+.error > p {
+	font-family:'Poiret One', cursive; 
+	color: #ff5252;
+	font-size: medium;
+	height: 25px;
+	font-weight: bold;
+}
+.grd-det-box{
+	text-align: left;
+}
+
+.ground-details p > .tweak{
+	padding: 5px;
+	font-size: medium;
+	color: #bf4040;
+}
+
+
+.divide-line{
+	border-bottom: 1px solid #ff5252;
+	margin: 50px;
+}
+
+
+
+.sd-box{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	margin: 5px;
+	border: 1px solid #e6e6e6;
+}
+
+.sd-box-head{
+	font-family:'Poiret One', cursive; 
+	color: #ff5252;
+	font-size: large;
+	font-weight: bold;
+	padding: 2x;
+	text-align: center;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.sd-box-val{
+	margin: 5px;
+	font-family:'Poiret One', cursive; 
+	color: black;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+}
+
+
+
+.map-box{
+	margin: 5px;
+	padding: 5px;
+	font-family:'Poiret One', cursive; 
+	color: black;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+}
+
+.sd-box-val > p{
+	cursor: pointer;
+}
+
+.map-box:HOVER{
+	background-color: #bfbfbf;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.ts-slot{
+	text-align: left;
+}
+
+
+.ts-decide{
+	text-align: center;
+	cursor: pointer;
+	background-color: #0099ff;
+	padding: 5px;
+}
+
+.ts-decide:HOVER{
+	background-color: #00cc66;
+}
+
+/* scroll bar css*/
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: inherit;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cc0066; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background-color: #cc0066; 
+}

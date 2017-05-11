@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#myNavbar{
+	background: white;
+}
+
+.navbar-default .navbar-brand{
+	margin-left: 0 !important;
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand .tweak{
+	color: #ff5252;
+}
+
+
+#links-right > li:LAST-CHILD{
+	margin-right: 25px;
+}
+
+#links-right > li a{
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+}
+ 
+#links-right > li >a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+#links-right >.active>a, 
+#links-right >.active>a:focus, 
+#links-right >.active>a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+.key-indicate{
+	color: orange;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#dashboard .row{
+	padding: 50px 0px 50px 0px;
+	margin: 10px 0 10px 0px;
+	border-bottom: 1px solid #ff0066; 
+}
+
+.wlc-msg > p{
+	color: #ff0066;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.wc-msg-black{
+	color: black;
+}
+
+.feature{
+	border:1px solid #e7e7e7;
+	text-align: center;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.feature .refresh .glyphicon-refresh {
+	float: right;
+	color: #0099ff;
+	padding: 5px;
+	font-size: medium;
+	cursor: pointer;
+}
+
+.feature .refresh .glyphicon-refresh:hover {
+	float: right;
+	color: #00cc66;
+	padding: 5px;
+	font-size: medium;
+	cursor: pointer;
+}
+
+
+.feature > .count > i {
+	color: #ff5252;
+	font-family:'Poiret One', cursive; 
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.feature:hover > .count > i {
+	color: #ff5252;
+	font-family:'Poiret One', cursive; 
+	font-size: 39px;
+	font-weight: bold;
+}
+
+.feature  .count {
+	padding: 10px 10px 0 10px;
+}
+
+.feature > h3{
+	color: purple;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.feature > p{
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: medium;
+	font-weight: bold;
+}
+
+.feature:hover{
+	background-color: #e6e6e6;
+	padding-bottom: 0px;
+}
+
+
+.feature, .feature i, .feature h3, .feature .title_border {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;    
+}
+
+.req-details{
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.feature .title_border{
+	border-bottom: 1px solid #cc0066;
+	width: 0%
+}
+
+.feature:hover .title_border{
+	border-bottom: 1px solid #cc0066;
+	text-align: center;
+	margin: 0 auto;
+	width: 75%
+}
+
+#grounds{
+	min-height: 600px;
+	text-align: center;
+}
+
+#grounds > .row > .mng-grd > p{
+	padding-top: 75px;
+	color: #ff5252;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+
+.req-panel {
+	margin: 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 0;
+}
+
+.req-panel > .panel-heading {
+	text-align: left;
+	background: rgb(98, 96, 96);
+	border-radius: 0;
+} 
+
+.req-panel > .panel-heading > .panel-title{
+	color: white;
+	padding: 0 0 0 20px;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.req-box{
+	padding: 5px;
+}
+
+.req-details{
+	padding: 5px;
+	border: 1px solid #e7e7e7;
+	text-align: left;
+	font-family:'Poiret One', cursive; 
+	font-size: small;
+	font-weight: bold;
+	color: black;
+}
+
+.req-details:HOVER{
+	background-color: #e6e6e6;
+}
+
+.req-details p > .tweak{
+	font-size: medium;
+	color: #cc0066;
+}
+
+.req-decide .req-decide-btn{
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.req-decide .req-decide-btn:HOVER{
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+}
+
+.req-decide > div > .approve{
+	background: #00cc66;
+}
+
+.req-decide >div > .reject{
+	background: #ff4d4d;
+}
+
+
+.approve-msg {
+	background-color: #ccff99; 
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: medium;
+	font-weight: bold;	
+}
+
+.approve-msg  div > span{
+	float: right;
+	font-size: large;
+	cursor: pointer;
+}
+
+
+
+/* scroll bar css*/
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: inherit;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cc0066; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background-color: #cc0066; 
+}
+

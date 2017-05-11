@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#myNavbar{
+	background: white;
+}
+
+.navbar-default .navbar-brand{
+	margin-left: 0 !important;
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand .tweak{
+	color: #ff5252;
+}
+
+
+#links-right > li:LAST-CHILD{
+	margin-right: 25px;
+}
+
+#links-right > li a{
+	color: black;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+	font-weight: bold;
+}
+ 
+#links-right > li >a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+#links-right >.active>a, 
+#links-right >.active>a:focus, 
+#links-right >.active>a:hover{
+	color: #ff5252;
+	background-color: white;
+	font-family:'Poiret One', cursive; 
+	font-size: large;
+}
+
+#page-top > .row {
+	padding: 50px 0px 50px 0px;
+}
+

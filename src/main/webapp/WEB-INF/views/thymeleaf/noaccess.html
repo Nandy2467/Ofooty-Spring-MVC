@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet"
+	th:href="@{custom/bootstrap/css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{custom/css/noaccess.css}" />
+<script type="text/javascript"
+	th:src="@{custom/jquery/jquery-3.2.1.min.js}"></script>
+<script type="text/javascript"
+	th:src="@{custom/bootstrap/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{custom/js/scroll-spy.js}"></script>
+<style>
+#page-top{
+	padding: 50px;
+	margin: 50px;
+}
+
+.row  h2{
+	font-family: monospace;
+	font-size: xx-large;
+	font-weight: bold;
+	color: red;
+}
+
+.row p{
+	font-family: monospace;
+	font-size: large;
+	font-weight: bold;
+	color: blue;
+} 
+</style>
+</head>
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myRightNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#page-top"><span class="tweak">O</span>footy</a>
+			</div>
+			<div>
+				<div class="collapse navbar-collapse" id="myRightNavbar">
+					<ul id="links-right" class="nav navbar-nav navbar-right">
+						<li><a href="/ofooty/logout">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="page-top" class="container-fluid">
+		<div class="row">
+			<h2>Access denied</h2>
+			<p>You do not have access to this resource. Please click on back button to continue your work.</p>
+		</div>
+	</div>
+</body>
+</html>
